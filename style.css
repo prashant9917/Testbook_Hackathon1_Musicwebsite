@@ -1,0 +1,89 @@
+#menu {
+    overflow-y: hidden;
+    position: relative;
+    background: black;
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+#menu ul li:hover {
+    background: linear-gradient(90deg, #DC3545, #DC3545);
+    transition: all ease 1s;
+}
+
+#menu ul li a:hover {
+    color: white;
+}
+
+.photo {
+    text-align: center;
+    min-height: 700px;
+    /* background:url(https://wallpaperbat.com/img/376536-hd-gibson-les-paul-background-music-iphone-wallpaper.jpg); */
+    /* background: url(images/2.png) ; */
+    /* background-repeat: cover; */
+    /* background: url(images/m1.jpg); */
+    background: url(https://browsecat.art/sites/default/files/music-neon-wallpapers-60547-685887-2220730.png);
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    padding: 7%;
+}
+
+.pr {
+    color: rgb(4, 255, 234);
+    text-shadow: 5px 0 5px rgb(180, 180, 151);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pra {
+    color: rgba(230, 205, 153, 0.836);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.music {
+    min-height: 1000px;
+    background: #252529;
+    color: #FFFFFF;
+    font-family: Comic Sans MS;
+}
+
+.movie {
+    min-height: 1100px;
+    background: #F4F4F4;
+    color: #333333;
+    padding-top: 2%;
+    font-family: Comic Sans MS;
+}
+
+.world {
+    min-height: 500px;
+    color: white;
+    background: url(images/j.jpeg);
+    background-size: 100% 100%;
+    background-attachment: relative;
+    font-size: 30px;
+    padding: 5%;
+}
+
+.card {
+    background: white;
+    color: black;
+    min-height: 500px;
+    padding: 5%;
+}
+
+.ufooter {
+    min-height: 300px;
+    background-color: #252529;
+    color: white;
+    padding: 2%;
+}
+
+.bfooter {
+    min-height: 70px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
